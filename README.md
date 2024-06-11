@@ -30,39 +30,36 @@ La aplicación móvil está destinada a los usuarios/pacientes y permite:
 ### Aplicación Web
 
 #### Pantalla de Inicio de Sesión
-![Pantalla de Inicio de Sesión](ruta/a/tu/imagen1.png)
+![Pantalla de Inicio de Sesión](imgREADME/login.png)
 
 #### Pantalla de Página Principal
-![Pantalla de Página Principal](ruta/a/tu/imagen2.png)
+![Pantalla de Página Principal](imgREADME/principal.png)
 
 #### Pantalla de Citas del doctor
-![Pantalla de Citas del doctor](ruta/a/tu/imagen3.png)
+![Pantalla de Citas del doctor](imgREADME/citas.png)
 
-#### Pantalla de Consulta sin cita
-![Pantalla de Consulta sin cita](ruta/a/tu/imagen4.png)
+#### Pantalla de Consulta
+![Pantalla de Consulta sin cita](imgREADME/consulta.png)
 
 #### Pantalla de Historial Principal
-![Pantalla de Historial Principal](ruta/a/tu/imagen5.png)
+![Pantalla de Historial Principal](imgREADME/historialA.png)
 
 ### Aplicación Móvil
 
 #### Pantalla de Login
-![Pantalla de Login](ruta/a/tu/imagen6.png)
+![Pantalla de Login](imgREADME/loginM.png)
 
 #### Pantalla principal
-![Pantalla principal](ruta/a/tu/imagen7.png)
+![Pantalla principal](imgREADME/principalM.png)
 
 #### Pantalla de Agendar cita
-![Pantalla de Agendar cita](ruta/a/tu/imagen8.png)
+![Pantalla de Agendar cita](imgREADME/citaM.png)
 
 #### Pantalla de Historial de Citas
-![Pantalla de Historial de Citas](ruta/a/tu/imagen9.png)
-
-#### Pantalla de Perfil
-![Pantalla de Perfil](ruta/a/tu/imagen10.png)
+![Pantalla de Historial de Citas](imgREADME/historialMC.png)
 
 #### Pantalla de Historial Clinico
-![Pantalla de Historial Clinico](ruta/a/tu/imagen11.png)
+![Pantalla de Historial Clinico](imgREADME/historialM.png)
 
 ## Instalación y Uso
 
