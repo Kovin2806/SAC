@@ -65,7 +65,7 @@ La aplicación móvil está destinada a los usuarios/pacientes y permite:
 
 1. Clonar este repositorio:
    ```bash
-   git clone https://github.com/<tu-usuario>/SAC-Project.git
+   git clone https://github.com/<tu-usuario>/SAC.git
 2. Configurar la base de datos importando SAC completa.sql en tu servidor MySQL.
 
 3. Configurar las constantes de base de datos en Config/config.php.
