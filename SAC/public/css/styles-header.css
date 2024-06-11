@@ -1,0 +1,152 @@
+/* ================ Parametros para toda la paginas ==================== */
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* =============== Formato principal para listas, enlaces =============================== */
+.formato_li,
+.formato_a {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+/* ============== Formato de fondo, color y texto para la barra header que contiene el logo y nmbre de user ========== */
+.principal-1 {
+    display: flex;
+    min-height: 40px;
+    justify-content: space-between;
+    background-color: #BBD9DD;
+    align-items: center;
+    padding: 15px 5%;
+    text-decoration: none;
+}
+
+/* ================ Formato para el logo utilizado en el Nav ==================== */
+.logo {
+    cursor: pointer;
+    height: 90px;
+    align-items: center;
+}
+/* ============== Formato de fondo, color y texto para la barra que contiene opciones del menu ========== */
+
+.principal-2 {
+    background-color: #71A2A7;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* ======================== Indicamos que no tendra estilos las listas ============================ */
+.formato_ul{
+    list-style: none;
+    text-align: center;
+
+}
+/* ==== Propiedades de cada opcion del menu con su posicion y que tanto marguen tendra a su alrededor ======= */
+.formato_li_2{
+    position: relative;
+    list-style: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* ========== Propiedades para los enlaces y como se veran el fondo que los contiene ====== */
+.formato_a_2{
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: #71a2a7;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+/* ======= Propiedada de la imagenes que acompaña a los enlaces  ===== */
+.menu-nav li a img {
+    height: 35px;
+    padding-top: 12px;
+    align-items: center;
+}
+/* ====== Propiedada para el puntero sobre los enlaces========= */
+.menu-nav li a:hover {
+    background-color: #1e6c76;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+/* ================ DIV DEL USUARIO ========================== */
+.menu-nav-user ul {
+    list-style: none;
+
+}
+
+/* ============ propiedades para la posicion del nombre del usuario ==================  */
+.menu-nav-user ul li {
+    position: relative;
+    float: left;
+}
+/* ============ Propiedades de color del nombre del usuario ================ */
+.menu-nav-user ul li a {
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease 0s;
+    padding: 9px 20px;
+    border: none;
+    font-size: 20px;
+}
+/* ===== Propiedad del puntero sobre el nombre del usuario y que color tomara la letra ======= */
+.menu-nav-user ul li a:hover {
+    color: white;
+    background-color: #1E6C76;
+    border: none;
+}
+/* ==================== Linea al lado del nombre de color grisasea ====================== */
+.menu-nav-user .linea::after {
+    content: '';
+    width: 0.4px;
+    background: linear-gradient(#fcfcfc, #1E6C76);
+    position: absolute;
+    top: -15px;
+    right: 250px;
+    height: 80px;
+}
+/* ================== Propiedades de posion del enlace para Cerrar Sesion ======================= */
+.menu-nav-user ul li ul {
+    position: absolute;
+    left: 20px;
+    display: none;
+}
+/* ====== Propiedades de enlace Cerrar Sesion color del borde superior ======== */
+.menu-nav-user ul li ul li {
+    width: 92%;
+    border-top: 1px solid #1E6C76;
+}
+/* ======= Propiedad de enlace Cerrar Sesion color de fondo  ======== */
+.menu-nav-user ul li ul li a {
+    background-color: #46868f;
+}
+/* ======= Propiedad de enlace Cerrar Sesion color de fondo pasar el puntero  ======== */
+.menu-nav-user ul li ul li a:hover {
+    background-color: #1E6C76;
+}
+/* =========== Posicion del enlace cerrar sesion para estableces sus limites al mostarse ======================================= */
+.menu-nav-user ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+/* ================ Mostrar el contenido oculto en el menu ============================================ */
+.menu-nav-user ul li:focus-within>ul,
+.menu-nav-user ul li:hover>ul {
+    display: initial;
+}
+
+
